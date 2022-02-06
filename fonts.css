@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Poppins:wght@100&display=swap');
+
+body {
+	font-family: verdana;
+	background-color: #000
+}
+
+#roosevelt {
+	font-family: 'Poppins', sans-seriff;
+	text-align: center;
+	color: #ffff;
+}
+
+#top5 {
+	font-family: 'Poppins', sans-seriff;
+	text-align: center;
+	color: #ffff;
+}
+
+h1, h5 {	
+	font-family: 'Poppins', 'sans-seriff';
+	color: #ffff;
+	text-align: center;
+}
+
+
+p {
+	font-family: 'PT Sans', sans-seriff;
+	text-align: center;
+	color: #aaa;
+}
