@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'Eternity';
+	src: url("fonts/Humongous of Eternity St.ttf");
+}
+
+@font-face {
+	font-family: 'SF Pro';
+	src: url("fonts/SF-Pro.ttf");
+}
+
+body {
+	background-color:lightslategrey;
+	text-align: center;
+}
+
+.title {
+	font-family: 'SF Pro', 'fantasy';
+	text-align: center;
+	color: white;
+}
+
+.minititle {
+	font-family: 'SF Pro', 'fantasy';
+	text-align: center;
+	color: black;
+}
+p {
+	font-family: "SF Pro", sans-seriff;
+	text-align: center;
+	color: white;
+	background-color:dimgrey;
+	alignment: center;
+	width: 925px;
+	min-width: 800px;
+	max_width: 1200px;
+	border-style: double;
+	border-width: medium;
+	padding: 5px;
+	margin: 15px auto 15px auto;
+}
+
+li {
+	font-family: "SF Pro", sans-serif;
+	font-size: 1.05em;
+	margin: 25px auto 25px auto;
+	display: inline;
+	padding: 25px;
+	color: white;
+}
