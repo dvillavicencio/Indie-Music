@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Eternity';
+	src: url("fonts/Humongous of Eternity St.ttf");
+}
+
+.title {
+	font-family: 'Eternity', 'fantasy';
+	text-align: center;
+	color: white;
+}
+
+.minititle {
+	font-family: 'Eternity', 'fantasy';
+	text-align: left;
+	color: lightgrey;
+}
+p {
+	font-family: 'S', sans-seriff;
+	font-size: 1.05em;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: white;
+}
+
+li {
+	font-family: Tahoma, sans-serif;
+	font-size: 1.05em;
+
+}

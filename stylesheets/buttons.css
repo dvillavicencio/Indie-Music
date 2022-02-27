@@ -1,0 +1,13 @@
+input:hover[type=button] {
+    color: dimgray;
+    background-color: lightgray;
+}
+
+input[type=button] {
+    color: white;
+    font-size: 16px;
+    font-family: Calibri;
+    background-color: dimgray;
+    border: none;
+    padding: 4px 8px;
+}
