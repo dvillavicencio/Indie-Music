@@ -10,7 +10,7 @@
 
 body {
 	background-color:lightslategrey;
-	text-align: left;
+	text-align: center;
 }
 
 .title {
@@ -41,9 +41,13 @@ p {
 
 li {
 	font-family: "SF Pro", sans-serif;
+	border-style: groove;
+	border-collapse: collapse;
+	text-transform: uppercase;
+	text-align: center;
 	font-size: 1.05em;
-	margin: 25px auto 25px auto;
+	margin: 10px auto 10px auto;
 	display: inline;
-	padding: 25px;
+	padding: 5px;
 	color: white;
 }
