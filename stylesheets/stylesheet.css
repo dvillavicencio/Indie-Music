@@ -22,7 +22,7 @@ body {
 .minititle {
 	font-family: 'SF Pro', 'fantasy';
 	text-align: center;
-	color: black;
+	color: ghostwhite;
 }
 p {
 	font-family: "SF Pro", sans-seriff;
@@ -50,4 +50,9 @@ li {
 	display: inline;
 	padding: 5px;
 	color: white;
+}
+
+.copyright {
+	font-family: "SF Pro", sans-serif;
+	color: azure;
 }
