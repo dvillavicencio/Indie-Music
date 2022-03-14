@@ -28,13 +28,13 @@ p {
 	font-family: "SF Pro", sans-seriff;
 	text-align: center;
 	color: white;
-	background-color:dimgrey;
+	/*background-color:dimgrey;*/
 	alignment: center;
 	width: 925px;
 	min-width: 800px;
 	max_width: 1200px;
-	border-style: double;
-	border-width: medium;
+	/*border-style: double;*/
+	/*border-width: medium;*/
 	padding: 5px;
 	margin: 15px auto 15px auto;
 }
@@ -43,7 +43,6 @@ li {
 	font-family: "SF Pro", sans-serif;
 	border-style: groove;
 	border-collapse: collapse;
-	text-transform: uppercase;
 	text-align: center;
 	font-size: 1.05em;
 	margin: 10px auto 10px auto;
@@ -56,3 +55,29 @@ li {
 	font-family: "SF Pro", sans-serif;
 	color: azure;
 }
+
+fieldset {
+	font-family: "SF Pro", sans-serif;
+	color: white;
+	width: 300px;
+}
+
+legend {
+	font-size: 1.20em;
+	font-weight: bolder;
+	margin: 5px 5px;
+	padding: 5px 5px;
+	border-style: ridge;
+}
+
+input[type=text], input[type=password] {
+	width: 75%;
+	padding: 6px 6px;
+	margin: 4px 0px;
+}
+
+button#login_button {
+	padding: 5px 10px;
+	margin: 4px 0px;
+}
+
