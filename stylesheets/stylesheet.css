@@ -9,23 +9,21 @@
 }
 
 body {
+	font-family: "SF Pro", sans-serif;
 	background-color:lightslategrey;
 	text-align: center;
 }
 
 .title {
-	font-family: 'SF Pro', 'fantasy';
 	text-align: center;
 	color: white;
 }
 
 .minititle {
-	font-family: 'SF Pro', 'fantasy';
 	text-align: center;
 	color: ghostwhite;
 }
 p {
-	font-family: "SF Pro", sans-seriff;
 	text-align: center;
 	color: white;
 	/*background-color:dimgrey;*/
@@ -40,7 +38,6 @@ p {
 }
 
 li {
-	font-family: "SF Pro", sans-serif;
 	border-style: groove;
 	border-collapse: collapse;
 	text-align: center;
@@ -52,14 +49,12 @@ li {
 }
 
 .copyright {
-	font-family: "SF Pro", sans-serif;
 	color: azure;
 }
 
 fieldset {
-	font-family: "SF Pro", sans-serif;
 	color: white;
-	width: 300px;
+	width: 275px;
 }
 
 legend {
@@ -76,8 +71,15 @@ input[type=text], input[type=password] {
 	margin: 4px 0px;
 }
 
-button#login_button {
+button {
+	color: whitesmoke;
+	background-color: lightslategrey;
+	border-style: ridge;
 	padding: 5px 10px;
 	margin: 4px 0px;
+}
+
+button:hover {
+	background-color: darkgrey;
 }
 
